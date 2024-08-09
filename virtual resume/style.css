@@ -1,0 +1,92 @@
+body {
+    background: #1B1B25;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+                2px 2px 0 white, 
+                -2px -2px 0 white 
+                2px -2px 0 #ffffff, 
+                -2px 2px 0 white, 
+                2px 0 0 white, 
+                -2px 0 0 rgb(0, 0, 0), 
+                0 2px 0 white 
+                0 -2px 0 white; 
+    margin: 0; 
+    height: 100vh; 
+    background-image: url('https://raw.githubusercontent.com/D3Ext/aesthetic-wallpapers/main/images/waves_live.gif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+
+    
+  
+}
+  
+  .separator {
+    width: 30%;
+  }
+  
+  .title {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    
+    a {
+      color: #DB4D57;
+      
+      &:hover {
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    
+    hr {
+      width: 75%;
+    }
+  }
+  
+  .summary {
+    padding: 20px;
+    
+    p {
+      font-size: 1.6rem;
+      letter-spacing: .2rem;
+    }
+  }
+  
+
+  #navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ff1493;
+    font-weight: bold;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 15px 15px;
+}
+
+section:nth-of-type(even) {
+    background: #000000;
+}
+
+section:nth-of-type(odd) {
+    background: #000000;
+}
+
+
+#light {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.05s ease-out;
+    mix-blend-mode: lighten;
+}
